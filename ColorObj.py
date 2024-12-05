@@ -1,24 +1,23 @@
 # File: ColorObj.py
 
 from pgl import GWindow, GImage
-from colors import color_order, int_colors, region_colors, regions
-from colors import GWINDOW_SIZE, COLORS, BOX_SIZE, MAX_BRIGHTNESS
 
 class ColorObj:
 
     # This sample code creates a pixel array that is uninitialized
     # TODO: Update the body of this class to implement a pixel array corresponding to a color.
-    # Prob0: Update ColorObj to contain a color, such as from int_colors
-    # Prob1: Work is done in wuphala.py
-    # Prob2: Work is done in wuphala.py
-    # Prob3: Update ColorObj to contain a pixel array of different colors.
-    #        You may wish to use "square" and "resize" helper methods on Prob2.
+    # Prob0: Update ColorObj to contain a color
+    # Prob1: Work is done in flag.py
+    # Prob2: Work is done in flag.py
+    # Prob3: Update ColorObj to contain a pixel array corresponding to an image from the imgs folder.
+    #        You may wish to use "square" and "resize" helper methods on Prob3.
+    #        As with Enigma and Adventure, you will need to make sure VS Code is open to the correct folder.
     # Prob4: Update ColorObj to contain a pixel array that is colorscaled.
-    #        You may wish to use "luminance" and "colorscale" helper methods on Prob3.
+    #        You may wish to use "luminance" and "colorscale" helper methods on Prob4.
 
     # Initializer
-    def __init__(self, name):
-        self.name = name
+    def __init__(self, line):
+        self.name = ""
         self.parr = []
 
     # Getter Method
